@@ -1,0 +1,9 @@
+.navBar {
+  background-color: #cbd5e1;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.navBar_image {
+  width: 200px;
+  margin-left: 50px;
+}

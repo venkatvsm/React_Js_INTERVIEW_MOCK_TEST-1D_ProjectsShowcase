@@ -1,0 +1,17 @@
+.ListItemsContainer {
+  width: 23%;
+  height: 300px;
+  margin: 20px;
+  margin-left: 0px;
+  box-shadow: 5px 5px 5px #f1f5f9;
+}
+.ListItemsImage {
+  width: 100%;
+}
+.ListItemsPara {
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: 600;
+  width: 220px;
+  margin-left: 18%;
+}

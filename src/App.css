@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bgContainer {
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cardContainer {
+  align-self: center;
+  height: 100vh;
+  width: 80%;
+}
+.optionsContainer {
+  width: 400px;
+  height: 62px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e2e8f0;
+  border-radius: 8px;
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.loader {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ListContainer {
+  list-style-type: none;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.failureContainer {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure_image {
+  width: 550px;
+}
+.failure_Heading {
+  color: #475569;
+  font-family: 'Roboto';
+  margin: 5px;
+}
+.failure_para {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+}
+.failure_Btn {
+  height: 46px;
+  width: 120px;
+  font-size: 14px;
+  background-color: #328af2;
+  color: #ffffff;
+  border-radius: 6px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+}
